@@ -92,6 +92,18 @@ To try it yourself:
 - **Distance Calculation:** Uses the geodesic method from `geopy` for accurate great-circle distances.
 - **Map Rendering:** Uses Folium for interactive, leaflet-based maps.
 
+## ISS SSTV Captures
+
+As proof of concept, here are some of the SSTV images I captured during the November 2024 ISS event.  
+These were received by remotely tuning into WebSDRs identified by the tracker and recording the pass.  
+Despite the noise and fading, the images clearly show details such as text and graphics from the ISS transmissions.  
+
+<p align="center">
+  <img src="example/2024-11-12_19.54.52.jpg" width="300"/>
+  <img src="example/2024-11-12_22.57.45.jpg" width="300"/>
+  <img src="example/2024-11-12_23.02.07.jpg" width="300"/>
+</p>
+
 ## Limitations & Future Work
 
 Currently optimized for ISS SSTV (145 MHz). Future extensions could include additional satellites, real-time updating, and direct integration with SSTV decoding pipelines.
